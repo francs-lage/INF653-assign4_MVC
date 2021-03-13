@@ -1,0 +1,12 @@
+# put back in the item_list.php:
+
+        <section id="addItemSection"> 
+            <h1 id="h1AddItem"> Add Item </h1>
+            <form action="." method="POST" class="addItem" >
+                <label id="labelNT" for="newtitle">Title:</label>
+                <input type="text" id="newtitle" name="newtitle" maxlength="20" required>
+                <label id="labelND" for="newdescription">Description:</label>
+                <input type="text" id="newdescription" name="newdescription" maxlength="50">
+                <div class="addButton"> <button>Add Item</button> </div>
+            </form>
+        </section>

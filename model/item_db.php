@@ -20,6 +20,8 @@
         $statement->bindValue(':itemnum', $itemnum);
         $statement->execute();
         $statement->closeCursor();
+        $itemnum = NULL;
+        return ($itemnum);
     }
 
     function get_items(){

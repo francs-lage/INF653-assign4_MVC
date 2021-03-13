@@ -1,7 +1,6 @@
 
-body { 
-   background-color:black; 
-   background-image: url(img/green_bubbles.jpg);
+body {
+    background: url(img/green_bubbles.jpg);
 }
 
 header, #ListItemsSection, #addItemSection {
@@ -10,6 +9,7 @@ header, #ListItemsSection, #addItemSection {
     margin: auto;
     border-radius: 10px;
 }
+
 header {
     text-align: center;
     border-radius: 10px;
@@ -21,7 +21,6 @@ header {
     overflow: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 .itemDiv { 

@@ -1,4 +1,5 @@
-<?php include('view/header.php'); ?>
+ <?php include('view/header.php') ?>
+
 
 <section id="ListItemsSection"> 
             <?php if ($items) { 
@@ -14,18 +15,17 @@
                             <form  action="." method="POST" class="deleteForm">
                                 <input type="hidden" name="action" value="delete_item">
                                 <input type="hidden" name="itemnum" value="<?= $itemnum; ?>">                               
-                                <button class="deleteButton"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                <button class="deleteButton">X</button>
                             </form> 
                         </div>
-                    </div>
-                    
-                 <?php }
+                    </div>      
+         <?php }
             } else { ?>
                 <div class="itemDiv">The list is empty!</div>
             <?php } ?> 
-        </section>
+</section>
 
-        <section id="addItemSection"> 
+ <section id="addItemSection"> 
             <h1 id="h1AddItem"> Add Item </h1>
             <form action="." method="POST" class="addItem" >
                 <input type="hidden" name="action" value="add_item">
@@ -35,6 +35,6 @@
                 <input type="text" id="newdescription" name="newdescription" maxlength="50">
                 <div class="addButton"> <button>Add Item</button> </div>
             </form>
-        </section>
+ </section>
 
 <?php include('view/footer.php'); ?>

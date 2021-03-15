@@ -1,4 +1,4 @@
- <?php include('view/header.php') ?>
+ <?php include('header.php') ?>
 
 
 <section id="ListItemsSection"> 
@@ -37,4 +37,4 @@
             </form>
  </section>
 
-<?php include('view/footer.php'); ?>
+<?php include('footer.php'); ?>
